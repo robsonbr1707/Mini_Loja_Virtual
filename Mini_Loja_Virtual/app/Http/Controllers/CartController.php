@@ -53,6 +53,6 @@ class CartController extends Controller
         $user = auth()->user();
         $user->cart_shoppings()->delete($id);
 
-            return redirect()->route('index.home')->with('msg_buyProduct', 'Seu Produto Foi Aprovado!! Logo logo Chegara Na Sua Casa kkk');
+            return redirect()->route('index.home')->with('msg_buyProduct', 'Seu Pedido Foi Aprovado!! Logo logo Chegara Na Sua Casa kkk');
     }
 }
