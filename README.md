@@ -1,10 +1,11 @@
 # Mini_Loja_Virtual
 
-# Projeto em que o usuario pode criar um produto, podendo avaliar produto de outros usuarios e enviar produtos ao seu carrinho.
+# Projeto Em Que O Usuario Pode Criar Um Produto, Podendo Avaliar Produto De Outros Usuarios E Enviar Produtos Ao Seu Carrinho.
+  
+  Não Há Nivel De Acesso, Qualquer Usuario Poderá Criar Seu Produto
+  
+# Importante Configurar Seu Banco No .env E Fazer As Migrations E Criar Um Link Simbolico
 
-# Importante fazer as migrations e um link simbolico
-
-# Para as migrations: php artisan migrate
-# Para o link simbolico: php artisan storage:link
+  Link Simbolico:  php artisan storage:link
 
  
